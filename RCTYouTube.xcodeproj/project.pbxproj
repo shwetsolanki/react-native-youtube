@@ -126,6 +126,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8BDB9BC01B4289AE00EF9FEF;
@@ -249,14 +250,14 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../ios/**",
+					"$(SRCROOT)/../../../ios/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../react-native/React/**",
-					"$(SRCROOT)/../react-native/React/**/**",
-					"$(SRCROOT)/../../ios/Pods/Headers/Public",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,14 +271,14 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../ios/**",
+					"$(SRCROOT)/../../../ios/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../react-native/React/**",
-					"$(SRCROOT)/../react-native/React/**/**",
-					"$(SRCROOT)/../../ios/Pods/Headers/Public",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

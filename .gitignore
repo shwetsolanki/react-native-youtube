@@ -16,14 +16,18 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+project.xcworkspace
+
 .DS_Store
-.vscode/
-android/.idea/
-.idea/
+.vscode
 
-
-# Project specific
+# Android/IntelliJ
 #
-yarn.lock
-yarn-error.log
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
 node_modules
+package-lock.json

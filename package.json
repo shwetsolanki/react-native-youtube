@@ -1,8 +1,9 @@
 {
   "name": "react-native-youtube",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A <YouTube/> component for React Native.",
   "main": "main.js",
+  "types": "main.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +29,6 @@
     "react-native": ">=0.60"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.4"
   }
 }
